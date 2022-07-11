@@ -1,0 +1,12 @@
+{
+	"importMap": "./imports.importmap",
+	"fmt": {
+		"options": {
+			"indentWidth": 2,
+			"useTabs": true
+		}
+	},
+	"tasks": {
+		"dev": "deno run --allow-net=0.0.0.0:8000 ./index.js"
+	}
+}
