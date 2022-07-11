@@ -6,7 +6,7 @@ repository = { type = "github", user = "nakaibuild", repo = "deno_deploy_templat
 
 [dependencies]
 gleam_stdlib = "~> 0.22"
-nakai = "~> 0.1"
+nakai = "~> 0.2"
 
 [dev-dependencies]
 gleeunit = "~> 0.6"
