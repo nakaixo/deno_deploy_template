@@ -1,8 +1,9 @@
 import gleam/html
 import nakai
+import template/app
 
 pub fn main() {
-  html.div([], [html.Text("Hi friend! from Gleam!")])
+  app.home()
   |> nakai.html
   |> nakai.render_doc(doctype: html.doctype("html"))
 }

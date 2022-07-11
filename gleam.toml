@@ -4,6 +4,8 @@ licences = ["MIT"]
 description = "Template for deploying a Nakai app on Deno Deploy"
 repository = { type = "github", user = "nakaibuild", repo = "deno_deploy_template" }
 
+target = "javascript"
+
 [dependencies]
 gleam_stdlib = "~> 0.22"
 nakai = "~> 0.2"

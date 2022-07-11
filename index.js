@@ -3,7 +3,7 @@ import { main } from "./build/dev/javascript/deno_deploy_template/dist/deno_depl
 
 function handler(req) {
 	return new Response(main(), {
-		headers: { "content-type": "text/html" },
+		headers: { "content-type": "text/html; charset=utf-8" },
 	});
 }
 
