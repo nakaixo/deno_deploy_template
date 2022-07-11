@@ -8,12 +8,69 @@ pub fn home() {
       html.head(
         [],
         [
-          html.title("Deno Deploy Example!"),
+          html.title("Nakai Deno Deploy Example ✨"),
           html.Element(
             "meta",
             [
               attrs.Attr("name", "viewport"),
               attrs.Attr("content", "width=device-width, initial-scale=1"),
+            ],
+            [],
+          ),
+          html.Element(
+            "meta",
+            [
+              attrs.Attr("property", "og:title"),
+              attrs.Attr("content", "Nakai Deno Deploy Example ✨"),
+            ],
+            [],
+          ),
+          html.Element(
+            "meta",
+            [
+              attrs.Attr("property", "og:description"),
+              attrs.Attr(
+                "content",
+                "Template for deploying a Nakai app on Deno Deploy",
+              ),
+            ],
+            [],
+          ),
+          html.Element(
+            "meta",
+            [
+              attrs.Attr("property", "og:type"),
+              attrs.Attr("content", "website"),
+            ],
+            [],
+          ),
+          html.Element(
+            "meta",
+            [
+              attrs.Attr("property", "og:url"),
+              attrs.Attr("content", "https://nakai-template.deno.dev"),
+            ],
+            [],
+          ),
+          html.Element(
+            "meta",
+            [
+              attrs.Attr("property", "og:image"),
+              attrs.Attr(
+                "content",
+                "https://cdn.mckayla.cloud/nakai/Nakai-Banner@2x.webp",
+              ),
+            ],
+            [],
+          ),
+          html.Element(
+            "meta",
+            [
+              attrs.Attr("property", "og:image:secure_url"),
+              attrs.Attr(
+                "content",
+                "https://cdn.mckayla.cloud/nakai/Nakai-Banner@2x.webp",
+              ),
             ],
             [],
           ),
