@@ -9,6 +9,14 @@ pub fn home() {
         [],
         [
           html.title("Deno Deploy Example!"),
+          html.Element(
+            "meta",
+            [
+              attrs.Attr("name", "viewport"),
+              attrs.Attr("content", "width=device-width, initial-scale=1"),
+            ],
+            [],
+          ),
           html.link([attrs.rel("stylesheet"), attrs.href("/style.css")]),
           html.link([
             attrs.rel("preconnect"),
