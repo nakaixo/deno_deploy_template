@@ -161,7 +161,12 @@ pub fn home() {
                 [
                   attrs.Attr(
                     "style",
-                    "font-family: 'Neuton', serif; font-size: 128px; font-weight: 400;",
+                    "
+                    color: #331f26;
+                    font-family: 'Neuton', serif;
+                    font-size: 128px;
+                    font-weight: 400;
+                    ",
                   ),
                 ],
                 [html.Text("Nakai.")],
