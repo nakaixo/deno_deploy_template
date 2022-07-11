@@ -155,7 +155,7 @@ pub fn home() {
                 "
                 max-width: 900px;
                 margin: auto;
-                margin-top: -30vh;
+                margin-top: -300px;
                 padding: 24px;
                 ",
               ),
