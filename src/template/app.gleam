@@ -104,7 +104,14 @@ pub fn home() {
               html.div(
                 [],
                 [
-                  html.p([], [html.Text("An SSR framework for Gleam ✨")]),
+                  html.p(
+                    [],
+                    [
+                      html.Text(
+                        "A server-side rendering framework for building web apps with Gleam ✨",
+                      ),
+                    ],
+                  ),
                   html.p(
                     [],
                     [
