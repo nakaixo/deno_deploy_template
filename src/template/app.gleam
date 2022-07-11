@@ -74,6 +74,10 @@ pub fn home() {
             ],
             [],
           ),
+          html.link([
+            attrs.rel("shortcut icon"),
+            attrs.href("https://cdn.mckayla.cloud/nakai/favicon.ico"),
+          ]),
           html.link([attrs.rel("stylesheet"), attrs.href("/style.css")]),
           html.link([
             attrs.rel("preconnect"),
