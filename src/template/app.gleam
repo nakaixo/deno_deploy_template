@@ -58,7 +58,7 @@ pub fn home() {
               attrs.Attr("property", "og:image"),
               attrs.Attr(
                 "content",
-                "https://cdn.mckayla.cloud/nakai/Nakai-Banner@2x.webp",
+                "https://cdn.mckayla.cloud/-/f648cf5b6eee40b2982410757909716e/Nakai-Banner@2x.webp",
               ),
             ],
             [],
@@ -69,14 +69,16 @@ pub fn home() {
               attrs.Attr("property", "og:image:secure_url"),
               attrs.Attr(
                 "content",
-                "https://cdn.mckayla.cloud/nakai/Nakai-Banner@2x.webp",
+                "https://cdn.mckayla.cloud/-/f648cf5b6eee40b2982410757909716e/Nakai-Banner@2x.webp",
               ),
             ],
             [],
           ),
           html.link([
             attrs.rel("shortcut icon"),
-            attrs.href("https://cdn.mckayla.cloud/nakai/favicon.ico"),
+            attrs.href(
+              "https://cdn.mckayla.cloud/-/f648cf5b6eee40b2982410757909716e/favicon.ico",
+            ),
           ]),
           html.link([attrs.rel("stylesheet"), attrs.href("/style.css")]),
           html.link([
@@ -122,7 +124,9 @@ pub fn home() {
               object-fit: cover;
               ",
             ),
-            attrs.src("https://cdn.mckayla.cloud/nakai/Nakai-Background.svg"),
+            attrs.src(
+              "https://cdn.mckayla.cloud/-/f648cf5b6eee40b2982410757909716e/Nakai-Background.svg",
+            ),
           ]),
           html.div(
             [
