@@ -24,7 +24,7 @@ jobs:
 
       - run: gleam test
 
-      - run: gleam build --target=javascript
+      - run: gleam build
 
       - uses: actions/upload-artifact@v3
         with:
