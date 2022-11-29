@@ -8,6 +8,13 @@ const header_style = "
 
 pub fn page() {
   html.Fragment([
+    metadata(),
+    html.h1_text([attrs.style(header_style)], "Hello from Gleam!"),
+  ])
+}
+
+pub fn metadata() {
+  html.Fragment([
     head.title("Nakai Deno Deploy Example ✨"),
     head.meta(name: "viewport", content: "width=device-width, initial-scale=1"),
     head.meta(name: "og:title", content: "Nakai Deno Deploy Example ✨"),
@@ -41,6 +48,5 @@ pub fn page() {
       rel: "stylesheet",
       href: "https://fonts.googleapis.com/css2?family=Outfit&display=swap",
     ),
-    html.h1_text([attrs.style(header_style)], "Hello Gleam!"),
   ])
 }
