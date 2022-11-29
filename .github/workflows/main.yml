@@ -51,3 +51,4 @@ jobs:
         with:
           project: nakai-template
           entrypoint: ./index.js
+          import-map: ./imports.importmap

@@ -1,9 +1,7 @@
-import gleam/html
 import nakai
-import template/app
+import pages/home
 
 pub fn main() {
-  app.home()
-  |> nakai.html
-  |> nakai.render_doc(doctype: html.doctype("html"))
+  home.page()
+  |> nakai.render
 }

@@ -4,7 +4,9 @@
 .nova/
 .vscode/
 build/
+deno.lock
 dist/
+manifest.toml
 node_modules/
 target/
 *.log
