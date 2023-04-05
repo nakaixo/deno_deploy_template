@@ -2,7 +2,7 @@ name = "deno_deploy_template"
 version = "1.0.0"
 licences = ["MIT"]
 description = "Template for deploying a Nakai app on Deno Deploy"
-repository = { type = "github", user = "nakaibuild", repo = "deno_deploy_template" }
+repository = { type = "github", user = "nakaixo", repo = "deno_deploy_template" }
 
 target = "javascript"
 
