@@ -50,5 +50,5 @@ jobs:
       - uses: denoland/deployctl@v1
         with:
           project: nakai-template
-          entrypoint: ./index.js
+          entrypoint: ./index.ts
           import-map: ./imports.importmap
