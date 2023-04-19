@@ -10,7 +10,7 @@ pub fn metadata() {
   html.Head([
     html.title("Deno Deploy Example ✨"),
     head.meta(name: "viewport", content: "width=device-width, initial-scale=1"),
-    head.meta(name: "og:title", content: "Nakai Deno Deploy Example ✨"),
+    head.meta(name: "og:title", content: "Deno Deploy Example ✨"),
     head.meta(
       name: "og:description",
       content: "Template for deploying a Nakai app on Deno Deploy",
