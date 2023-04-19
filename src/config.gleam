@@ -8,7 +8,7 @@ pub const header_style = "
 
 pub fn metadata() {
   html.Head([
-    html.title("Nakai Deno Deploy Example ✨"),
+    html.title("Deno Deploy Example ✨"),
     head.meta(name: "viewport", content: "width=device-width, initial-scale=1"),
     head.meta(name: "og:title", content: "Nakai Deno Deploy Example ✨"),
     head.meta(

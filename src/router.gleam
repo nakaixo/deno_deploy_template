@@ -1,7 +1,7 @@
 import gleam/result
 import gleam/uri
 import nakai
-import pages/home
+import pages/index
 import pages/not_found
 
 pub fn router(request_url: String) {
@@ -10,7 +10,7 @@ pub fn router(request_url: String) {
     |> result.map(fn(uri) { uri.path })
 
   let page = case path {
-    Ok("/") -> home.page()
+    Ok("/") -> index.page()
     _ -> not_found.page()
   }
 
