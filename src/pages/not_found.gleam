@@ -5,6 +5,6 @@ import nakai/html/attrs
 pub fn page() {
   html.Fragment([
     config.metadata(),
-    html.h1_text([attrs.style(config.header_style)], "Hello from Gleam!"),
+    html.h1_text([attrs.style(config.header_style)], "Nothing to see here :^)"),
   ])
 }

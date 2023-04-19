@@ -1,8 +1,8 @@
 import { serve } from "std/http/server.ts";
-import { main } from "./build/dev/javascript/deno_deploy_template/deno_deploy_template.mjs";
+import { router } from "./build/dev/javascript/deno_deploy_template/router.mjs";
 
-function app() {
-	return new Response(main(), {
+function app(request: Request) {
+	return new Response(router(request.url), {
 		headers: { "content-type": "text/html; charset=utf-8" },
 	});
 }

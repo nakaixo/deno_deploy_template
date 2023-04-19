@@ -7,8 +7,8 @@ repository = { type = "github", user = "nakaixo", repo = "deno_deploy_template" 
 target = "javascript"
 
 [dependencies]
-gleam_stdlib = "~> 0.25"
-nakai = "~> 0.4"
+gleam_stdlib = "~> 0.28"
+nakai = "~> 0.6"
 
 [dev-dependencies]
-gleeunit = "~> 0.7"
+gleeunit = "~> 0.10"
