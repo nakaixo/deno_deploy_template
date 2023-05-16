@@ -7,5 +7,4 @@ function app(request: Request) {
 	});
 }
 
-console.log("Listening on http://localhost:8000");
 await serve(app);
