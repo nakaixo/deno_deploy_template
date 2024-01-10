@@ -50,5 +50,4 @@ jobs:
       - uses: denoland/deployctl@v1
         with:
           project: nakai-template
-          entrypoint: ./index.ts
-          import-map: ./imports.importmap
+          entrypoint: ./build/dev/javascript/deno_deploy_template/gleam.main.mjs
