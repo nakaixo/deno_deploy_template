@@ -47,7 +47,9 @@ jobs:
           name: gleam-build
           path: build/
 
+      - run: echo "main();" >> ./build/dev/javascript/deno_deploy_template/deno_deploy_template.mjs
+
       - uses: denoland/deployctl@v1
         with:
           project: nakai-template
-          entrypoint: ./build/dev/javascript/deno_deploy_template/gleam.main.mjs
+          entrypoint: ./build/dev/javascript/deno_deploy_template/deno_deploy_template.mjs
