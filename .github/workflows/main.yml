@@ -19,10 +19,15 @@ jobs:
         name: Checkout
 
       - uses: erlef/setup-beam@v1
-        name: Prepare
+        name: Prepare BEAM
         with:
           otp-version: "26.2"
           gleam-version: "1.1"
+
+      - uses: denoland/setup-deno@v1
+        name: Prepare Deno
+        with:
+          deno-version: v1.x
 
       - run: gleam format --check
         name: Format
