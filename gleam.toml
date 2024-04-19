@@ -11,7 +11,7 @@ runtime = "deno"
 
 [javascript.deno]
 allow_net = ["0.0.0.0:8000"]
-allow_read = true # for Gleeunit/tests
+allow_read = ["gleam.toml", "test/"] # for Gleeunit/tests
 
 [dependencies]
 gleam_http = "~> 3.6"
