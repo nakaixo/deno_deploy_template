@@ -9,5 +9,5 @@ Clone this repo :^)
 ## Running locally
 
 ```sh
-gleam run --runtime deno
+gleam run
 ```

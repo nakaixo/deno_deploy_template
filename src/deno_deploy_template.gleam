@@ -6,10 +6,6 @@ import pages/index
 import pages/not_found
 import stego.{type Body}
 
-pub fn main() {
-  stego.serve(router)
-}
-
 pub fn router(req: Request(Body)) -> Promise(Response(String)) {
   let #(status, page) = case req.path {
     "/" -> #(200, index.page())
@@ -22,4 +18,8 @@ pub fn router(req: Request(Body)) -> Promise(Response(String)) {
   |> response.set_header("content-type", "text/html; charset=utf-8")
   |> response.set_body(body)
   |> promise.resolve()
+}
+
+pub fn main() {
+  stego.serve(router)
 }
