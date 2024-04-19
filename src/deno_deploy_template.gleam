@@ -1,10 +1,10 @@
 import gleam/http/request.{type Request}
 import gleam/http/response.{type Response}
 import gleam/javascript/promise.{type Promise}
-import stego.{type Body}
 import nakai
 import pages/index
 import pages/not_found
+import stego.{type Body}
 
 pub fn main() {
   stego.serve(router)

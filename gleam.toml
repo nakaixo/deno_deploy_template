@@ -9,8 +9,8 @@ target = "javascript"
 [dependencies]
 gleam_http = "~> 3.5"
 gleam_javascript = "~> 0.7"
-gleam_stdlib = "~> 0.34"
-nakai = "~> 0.8"
+gleam_stdlib = ">= 0.36.0 and < 2.0.0"
+nakai = "~> 0.10"
 stego = "~> 1.0"
 
 [dev-dependencies]

@@ -5,9 +5,4 @@
 .vscode/
 build/
 deno.lock
-dist/
-node_modules/
-target/
 *.log
-*.pyc
-*.tsbuildinfo

@@ -9,6 +9,5 @@ Clone this repo :^)
 ## Running locally
 
 ```sh
-gleam build
-deno run -A ./index.ts
+gleam run --runtime deno
 ```
